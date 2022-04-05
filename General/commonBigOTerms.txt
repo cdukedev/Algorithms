@@ -32,12 +32,32 @@ for x in range (0,n):
     for y in range (0,n):
         print x*y; 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Challenge 1 - What is the total run time for this block of code
+
+x = 5 + (15 * 20);   0(1)
+for x in range (0,n)   0(n)
+    print x;
+for x in range (0,n):  0(n^2)
+    for y in range (0,n):
+        print x*y; 
 
 
+O = 0(1) + 0(n) + 0(n^2)
+
+Since 0(n^2) is greater than the others the entire time is 0(n^2)
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Challenge 2 - What is the total run time for this block of code
 
+if x > 0:
+    // 0(1)
+else if x < 0:
+    // 0(n)
+else:
+    // 0(n^2)
 
-
-
+    The answer for run time is 0(n^2) since we always want to account for the worst case scenario.
+    
 
