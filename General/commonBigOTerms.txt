@@ -8,5 +8,16 @@ Notation-------Description-------Example
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Constant time- 
+
+x = 5 + (15 * 20);
+does not depend on input statement of n
+
+this makes this 0(1)
+
+even if you have 10 lines of expressions like this it will still be the same notation.
+
+
 
 
